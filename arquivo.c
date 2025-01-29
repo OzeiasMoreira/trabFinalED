@@ -1,4 +1,3 @@
-// set_operations.c
 #include "arquivo.h"
 #include <stdio.h>
 #include <stdlib.h>
