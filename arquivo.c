@@ -57,7 +57,7 @@ void remove_elem(Set *set, int elem) {
 }
 
 int pop(Set *set) {
-    if (isEmpty(set)) return -1; // Retorna -1 se o conjunto estiver vazio
+    if (isEmpty(set)) return -1;
     int elem = set->elementos[0];
     remove_elem(set, elem);
     return elem;
